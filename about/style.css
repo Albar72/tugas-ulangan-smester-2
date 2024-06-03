@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f2ff; /* Menambahkan background ke body */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f8ff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 999999px; /* Menambahkan border-radius */
+    margin: 20px; /* Menambahkan margin untuk memberikan ruang di sekitar navbar */
+}
+
+.navbar-brand .logo {
+    height: 10px;
+    width: 98px;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li {
+    display: inline;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.navbar-user .username {
+    background-color: pink;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+footer {
+    background-color: #2E5070;
+    ;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-evenly;
+
+}
+
+.content-footer1 {
+    display: flex;
+    gap: 84px;
+}
+
+.content-footer1 img {
+    width: 180px;
+    height: 26.1px;
+    margin-right: 150px;
+}
+
+.navigasi-judul {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+}
+
+.content-footer1 ul {
+    list-style: none;
+}
+
+.content-footer1 ul a {
+    text-decoration: none;
+}
+
+.content-footer1 ul a li {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    margin-top: 10px;
+}
+
+.content-footer2 {
+    display: flex;
+    gap: 13px;
+}
+
+.content-footer2 .kontak-judul {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.content-footer2 .nomer-list {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nomer-kontak-footer {
+    margin-bottom: 8px;
+}
+
+.akun-admin {
+    margin-bottom: 15px;
+}
+
+.content-kontak-footer {
+    display: flex;
+}
+
+.content-kontak-footer i {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.isi-keterangan-kontak {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.social-media-content {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-left: 150px;
+}
+
+.social-media-content .social-media-judul {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.yt-tt-ig-content {
+    display: flex;
+    color: white;
+}
+
+.yt-tt-ig-content i {
+    width: 25px;
+    height: 25px;
+}
+
+.yt-tt-ig-content p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hr2 {
+    height: 0;
+    color: #474747;
+} 
+
+.copyright-content {
+   background-color: #2E5070;
+   padding-top: 18px;
+   padding-bottom: 19px;
+}
+
+.copyright {
+    display: flex;
+    color: white;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 158px;
+}
