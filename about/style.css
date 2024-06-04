@@ -46,7 +46,56 @@ body {
     color: white;
 }
 
+/* Media query untuk perangkat dengan lebar layar kurang dari 768px */
+@media only screen and (max-width: 767px) {
+    .the-first {
+        flex-direction: column; /* Mengubah tata letak ke vertikal */
+        align-items: center; /* Pusatkan konten secara horizontal */
+        padding-left: 20px; /* Menyesuaikan padding kiri */
+        padding-right: 20px; /* Menyesuaikan padding kanan */
+    }
+
+    .the-second {
+        flex-direction: column; /* Mengubah tata letak ke vertikal */
+        align-items: center; /* Pusatkan konten secara horizontal */
+        padding-left: 20px; /* Menyesuaikan padding kiri */
+        padding-right: 20px; /* Menyesuaikan padding kanan */
+    }
+
+    h1 {
+        padding-left: 20px; /* Menyesuaikan padding kiri */
+        padding-right: 20px; /* Menyesuaikan padding kanan */
+        text-align: center; /* Pusatkan teks secara horizontal */
+    }
+
+    p {
+        margin-top: 20px; /* Menyesuaikan margin atas */
+        margin-bottom: 20px; /* Menyesuaikan margin bawah */
+        text-align: center; /* Pusatkan teks secara horizontal */
+    }
+}
+
+/* Media query untuk perangkat dengan lebar layar antara 768px dan 1024px */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .the-first,
+    .the-second {
+        padding-left: 50px; /* Menyesuaikan padding kiri */
+        padding-right: 50px; /* Menyesuaikan padding kanan */
+    }
+}
+
+/* Media query untuk perangkat dengan lebar layar lebih dari 1024px */
+@media only screen and (min-width: 1024px) {
+    .the-first,
+    .the-second {
+        padding-left: 250px; /* Menyesuaikan padding kiri */
+        padding-right: 250px; /* Menyesuaikan padding kanan */
+    }
+}
+
+
 footer {
+    background-image: url(paw-pattern\ 1.png);
     background-color: #2E5070;
     ;
     display: flex;
